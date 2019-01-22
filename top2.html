@@ -1,0 +1,413 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel = "stylesheet" type = "text/css" href = "WebSystem.css">
+		<title>
+			TSUTAYA
+		</title>
+	</head>
+	
+	<body>
+		<header>
+			<div align = "right" class = "member">
+				<a href = "buy.html">買い物かご</a>
+				<a href = "point.html">ポイント確認</a>
+				<a href = "logout.html">ログアウト</a>
+			</div>
+			<a href = "top2.html" class = "deg_btn">TSUTAYA</a>
+			<div class="cp_navi">
+				<ul>
+					<li><a href="top2.html">TOP</a></li>
+					<li><a href="">ニュース</a></li>
+					<li>
+						<a href="#">カテゴリ<span class="caret"></span></a>
+						<div>
+							<ul>
+								<li><a href="rank_book.html">書籍/コミックス</a></li>
+								<li><a href="rank_music.html">CD</a></li>
+								<li><a href="rank_dvd.html">DVD</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="">問い合わせ</a></li>
+				</ul>
+			</div>
+			<div>
+				<form id="form1" action="searchresult.html">
+					<input id="sbox"  id="s" name="s" type="text" placeholder="キーワードを入力" />
+					<input id="sbtn" type="submit" value="検索" />
+				</form>
+			</div>
+		</header>
+		<div class = "topics">
+			<p>2019/01/01 <a href = "">お知らせ1</a></p>
+			<p>2018/12/31 <a href = "">お知らせ2</a></p>
+			<p>2019/01/01 <a href = "">お知らせ3</a></p>
+			<p>2018/12/31 <a href = "">お知らせ4</a></p>
+			<p>2019/01/01 <a href = "">お知らせ5</a></p>
+			<p>2018/12/31 <a href = "">お知らせ6</a></p>
+			<p>2019/01/01 <a href = "">お知らせ7</a></p>
+			<p>2018/12/31 <a href = "">お知らせ8</a></p>
+			<p>2019/01/01 <a href = "">お知らせ9</a></p>
+			<p>2018/12/31 <a href = "">お知らせ10</a></p>
+		</div>
+		<div class = "ranking">
+			<div>
+				<h2>週間ランキング</h2>
+				<div class="accbox">
+					<!--ラベル1-->
+					<label for="label1">書籍/コミックス</label>
+					<input type="checkbox" id="label1" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">コミックス</option>
+							<option value="3">文庫</option>
+							<option value="4">新書</option>
+							<option value="5">文芸書</option>
+							<option value="6">月刊誌</option>
+							<option value="7">ムック</option>
+							<option value="8">ゲーム攻略本</option>
+							<option value="9">タレント写真集</option>
+							<option value="10">文学</option>
+							<option value="11">人文</option>
+							<option value="12">児童書</option>
+							<option value="13">趣味実用</option>
+							<option value="14">生活実用</option>
+							<option value="15">地図・旅行</option>
+							<option value="16">ビジネス</option>
+							<option value="17">パソコン</option>
+							<option value="18">マルチメディア</option>
+							<option value="19">理工</option>
+							<option value="20">芸術</option>
+							<option value="21">学術参考書</option>
+							<option value="22">辞典</option>
+							<option value="23">語学</option>
+							<option value="24">資格・就職</option>
+							<option value="25">看護・福祉・教育</option>
+							<option value="26">政治・国際・社会</option>
+							<option value="27">その他書籍</option>
+						</select>
+						<br>
+						<ol>
+							<li>
+								<img src="./1.PNG" alt="1位">
+								<p><a href = "">書籍1</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./2.PNG" alt="2位">
+								<p><a href = "">書籍2</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./3.PNG" alt="3位">
+								<p><a href = "">書籍3</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./4.PNG" alt="4位">
+								<p><a href = "">書籍4</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./5.PNG" alt="5位">
+								<p><a href = "">書籍5</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル1-->
+					<!--ラベル2-->
+					<label for="label2">CD</label>
+					<input type="checkbox" id="label2" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">J-POP</option>
+							<option value="3">アニメ/ゲーム</option>
+							<option value="4">ロック/ポップス</option>
+							<option value="5">ヒップホップ/ラップ</option>
+							<option value="6">クラブ/ダンス</option>
+							<option value="7">R&B/ソウル</option>
+							<option value="8">クラシック</option>
+							<option value="9">ハードロック/メタル</option>
+							<option value="10">レゲエ</option>
+							<option value="11">ブルース</option>
+							<option value="12">ワールド</option>
+							<option value="13">ジャズ</option>
+							<option value="14">フュージョン</option>
+							<option value="15">サントラ</option>
+							<option value="16">イージーリスニング</option>
+							<option value="17">キッズ</option>
+							<option value="18">演歌/民謡</option>
+							<option value="19">童謡</option>
+							<option value="20">バラエティ</option>
+						</select>
+						<br>
+						<ol>
+							<li>
+								<img src="./c1.PNG" alt="1位">
+								<p><a href = "">書CD1</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c2.PNG" alt="2位">
+								<p><a href = "">CD2</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c3.PNG" alt="3位">
+								<p><a href = "">CD3</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c4.PNG" alt="4位">
+								<p><a href = "">CD4</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c5.PNG" alt="5位">
+								<p><a href = "">CD5</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル2-->
+					<!--ラベル3-->
+					<label for="label3">DVD</label>
+					<input type="checkbox" id="label3" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">アニメ</option>
+							<option value="3">洋画アクション</option>
+							<option value="4">邦画アクション</option>
+							<option value="5">海外TVドラマ</option>
+							<option value="6">日本TVドラマ</option>
+							<option value="7">洋画ホラー</option>
+							<option value="8">邦画ホラー</option>
+							<option value="9">キッズ</option>
+							<option value="10">お笑い</option>
+							<option value="11">スポーツ</option>
+							<option value="12">洋画SF</option>
+							<option value="13">邦画SF</option>
+							<option value="14">邦画特撮SF</option>
+							<option value="15">HOBBY/旅行</option>
+							<option value="16">ドキュメント/その他</option>
+						</select>
+						<ol>
+							<li>
+								<img src="./1.PNG" alt="1位">
+								<p><a href = "">DVD1</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./2.PNG" alt="2位">
+								<p><a href = "">DVD2</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./3.PNG" alt="3位">
+								<p><a href = "">DVD3</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./4.PNG" alt="4位">
+								<p><a href = "">DVD4</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./5.PNG" alt="5位">
+								<p><a href = "">DVD5</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル3-->
+				</div><!--//.accbox-->
+			</div>
+			<div>
+				<h2>月間ランキング</h2>
+				<div class="accbox">
+					<!--ラベル1-->
+					<label for="label4">書籍/コミックス</label>
+					<input type="checkbox" id="label4" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">コミックス</option>
+							<option value="3">文庫</option>
+							<option value="4">新書</option>
+							<option value="5">文芸書</option>
+							<option value="6">月刊誌</option>
+							<option value="7">ムック</option>
+							<option value="8">ゲーム攻略本</option>
+							<option value="9">タレント写真集</option>
+							<option value="10">文学</option>
+							<option value="11">人文</option>
+							<option value="12">児童書</option>
+							<option value="13">趣味実用</option>
+							<option value="14">生活実用</option>
+							<option value="15">地図・旅行</option>
+							<option value="16">ビジネス</option>
+							<option value="17">パソコン</option>
+							<option value="18">マルチメディア</option>
+							<option value="19">理工</option>
+							<option value="20">芸術</option>
+							<option value="21">学術参考書</option>
+							<option value="22">辞典</option>
+							<option value="23">語学</option>
+							<option value="24">資格・就職</option>
+							<option value="25">看護・福祉・教育</option>
+							<option value="26">政治・国際・社会</option>
+							<option value="27">その他書籍</option>
+						</select>
+						<br>
+						<ol>
+							<li>
+								<img src="./1.PNG" alt="1位">
+								<p><a href = "">書籍1</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./2.PNG" alt="2位">
+								<p><a href = "">書籍2</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./3.PNG" alt="3位">
+								<p><a href = "">書籍3</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./4.PNG" alt="4位">
+								<p><a href = "">書籍4</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./5.PNG" alt="5位">
+								<p><a href = "">書籍5</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル1-->
+					<!--ラベル2-->
+					<label for="label5">CD</label>
+					<input type="checkbox" id="label5" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">J-POP</option>
+							<option value="3">アニメ/ゲーム</option>
+							<option value="4">ロック/ポップス</option>
+							<option value="5">ヒップホップ/ラップ</option>
+							<option value="6">クラブ/ダンス</option>
+							<option value="7">R&B/ソウル</option>
+							<option value="8">クラシック</option>
+							<option value="9">ハードロック/メタル</option>
+							<option value="10">レゲエ</option>
+							<option value="11">ブルース</option>
+							<option value="12">ワールド</option>
+							<option value="13">ジャズ</option>
+							<option value="14">フュージョン</option>
+							<option value="15">サントラ</option>
+							<option value="16">イージーリスニング</option>
+							<option value="17">キッズ</option>
+							<option value="18">演歌/民謡</option>
+							<option value="19">童謡</option>
+							<option value="20">バラエティ</option>
+						</select>
+						<br>
+						<ol>
+							<li>
+								<img src="./c1.PNG" alt="1位">
+								<p><a href = "">書CD1</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c2.PNG" alt="2位">
+								<p><a href = "">CD2</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c3.PNG" alt="3位">
+								<p><a href = "">CD3</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c4.PNG" alt="4位">
+								<p><a href = "">CD4</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+							<li>
+								<img src="./c5.PNG" alt="5位">
+								<p><a href = "">CD5</a></p>
+								<p><a href = "">作者</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル2-->
+					<!--ラベル3-->
+					<label for="label6">DVD</label>
+					<input type="checkbox" id="label6" class="cssacc" />
+					<div class="accshow">
+						<!--ここに隠す中身-->
+						<select name="category">
+							<option value="1">全て</option>
+							<option value="2">アニメ</option>
+							<option value="3">洋画アクション</option>
+							<option value="4">邦画アクション</option>
+							<option value="5">海外TVドラマ</option>
+							<option value="6">日本TVドラマ</option>
+							<option value="7">洋画ホラー</option>
+							<option value="8">邦画ホラー</option>
+							<option value="9">キッズ</option>
+							<option value="10">お笑い</option>
+							<option value="11">スポーツ</option>
+							<option value="12">洋画SF</option>
+							<option value="13">邦画SF</option>
+							<option value="14">邦画特撮SF</option>
+							<option value="15">HOBBY/旅行</option>
+							<option value="16">ドキュメント/その他</option>
+						</select>
+						<ol>
+							<li>
+								<img src="./1.PNG" alt="1位">
+								<p><a href = "">DVD1</a></p>
+							</li>
+							<li>
+								<img src="./2.PNG" alt="2位">
+								<p><a href = "">DVD2</a></p>
+							</li>
+							<li>
+								<img src="./3.PNG" alt="3位">
+								<p><a href = "">DVD3</a></p>
+							</li>
+							<li>
+								<img src="./4.PNG" alt="4位">
+								<p><a href = "">DVD4</a></p>
+							</li>
+							<li>
+								<img src="./5.PNG" alt="5位">
+								<p><a href = "">DVD5</a></p>
+							</li>
+						</ol>
+					</div>
+					<!--//ラベル3-->
+				</div><!--//.accbox-->
+			</div>
+		</div>
+		<footer>
+			<p>株式会社TSUTAYA</p>
+			<p>電話番号：0570-011-755<p>
+			<p>COPYRIGHT TSUTAYA All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
